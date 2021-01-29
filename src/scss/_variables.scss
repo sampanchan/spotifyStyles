@@ -1,0 +1,33 @@
+// 0 breakpoints ==================================== 
+// small tablets and large smartphones (landscape view)
+$breakpoint-phone: 576px;
+
+// small tablets (portrait view)
+$breakpoint-tablet: 768px;
+
+// tablets and small desktops
+$breakpoint-desktop: 992px;
+
+//large tabletss and desktops
+$breakpoint-xl: 1200px;
+
+
+
+// * 1. Colors =======================================
+$white: #fff;
+$blue: #151E46;
+$black: rgb(32, 32, 32);
+$background: linear-gradient(90deg, rgba(94,233,124,0.7987570028011204) 0%, rgba(176,232,199,0.7875525210084033) 49%, rgba(92,176,227,0.74) 97%);
+
+
+
+// * 2. Fonts ==========================================
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap');
+
+$main-font:'Kulim Park', sans-serif;
+$second-font: 'Roboto Condensed', sans-serif;
+$title-font: 'Oswald', sans-serif;
